@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+  }
+  
+  .tableHead-multiple-bestFits>p{
+    margin:0px;
+    font-size:10px;
+  }
+  .table-sample-infos{
+    background-color:rgb(236, 236, 236);
+    max-height:40px;
+  }
+  .table-sample-infos-tax-pathway{
+    max-height:5px;
+    max-width:20px;
+    overflow:hidden;
+    background-color:chartreuse;
+  }
+  
+  .modelTable-head{
+    background-color:rgb(223, 89, 116);
+  }
+  .table-model-info-mark-bestResult{
+    background-color:#bd7cb1;
+  }
+
+  .tableHeadCellWithIcon{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hiddenIcon{
+    transform:  rotate(90deg);
+    color:#cccccc
+}
+
+.model-results-interaction-bar{
+  display:flex;
+  flex-direction: row;
+  gap:15px;
+}
+.searchBar{
+    width:100%;
+}
+.searchBarModelHits{
+  width:30%;
+}
+
+.listItemTextCustom{
+    font-size:5px;
+}
+
+
+
+
+
+    

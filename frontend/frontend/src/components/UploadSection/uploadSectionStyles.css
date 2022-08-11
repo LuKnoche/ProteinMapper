@@ -1,0 +1,101 @@
+.column-buttons{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
+.upload-elements{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+    margin-bottom:25px;
+    height:200px;
+}
+.upload-elements>button{
+    height:40px;
+    width:100px;
+}
+  
+.dropzone{
+    width:550px;
+    height:169px;
+    background-color:#FAFAFA;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-style:dashed;
+    border-color:#dad9d9;
+    border-width: 2px;
+    margin-right:60px;
+  }
+  .dropzone>p{
+    color:#BDBDBD;
+  }
+  
+  .main-radios{
+    display:flex;
+    flex-direction: row;
+    padding-left:20px;
+    padding-right:20px;
+  }
+  
+  .main-row-radio{
+    width:210px;
+    height:180px;
+    gap:10px;
+    margin-top:20px;
+  }
+  .main-row-radio-buttons{
+    gap:5px;
+  }
+
+  .file-button{
+    font-size:13px;
+  }
+
+  .modal{
+    position:fixed;
+    z-index:99;
+    top:0%;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.25);
+    border-style: double;
+    border-radius: 5px;
+  }
+  .modal-content{
+    position:absolute;
+    background-color:rgb(255, 255, 255);
+    top:5%;
+    left:5%;
+    width:90%;
+    height:75%;
+    padding:20px;
+    border-radius:5px;
+    border: 2px solid #941680;
+  }
+
+  .modal-content-taxoList{
+    margin:auto;
+    margin-top:10px;
+    height:80%;
+    width:100%;
+    border: 2px solid #941680;
+    overflow:scroll;
+  }
+
+  .modal-content-taxoList-item{
+  }
+
+  .modal-content-taxoList-item-inner{
+    display:flex;
+    flex-direction: column;
+    gap:3px;
+  }
+
+  .close{
+    margin-top:8px;
+    float:right;
+  }
